@@ -1,3 +1,3 @@
-my_age = input ()
+my_age = input("ваш возраст? ") 
 
-print (my_age)
+print ("Ваш возварт" , my_age )
