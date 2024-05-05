@@ -1,3 +1,3 @@
-my_age = input 
+my_age = input ()
 
 print (my_age)
