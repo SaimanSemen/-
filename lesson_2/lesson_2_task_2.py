@@ -1,10 +1,5 @@
-def is year_leap(year):
-    if year % 4-0:
-      return True
-    else:
-      return False
-
-year int(input("Введите год: "))
-leap year is_year_leap(year)
-
-print(f"год (year): (leap_year)")
+def is_year_leap (year):
+    return f" год {year}  високосный?: {year % 4==0}"
+print (is_year_leap (2024))
+print (is_year_leap (2023))
+print ( is_year_leap (2022))
