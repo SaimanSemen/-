@@ -7,5 +7,6 @@ def fizz_buzz(n):
             print('Buzz')
         elif n % 3 == 0:
             print("Fizz")
-        else:print(n)
+        else:
+            print(n)
 fizz_buzz(n)
